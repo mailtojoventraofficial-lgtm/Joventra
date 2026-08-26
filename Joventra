@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joventra | Digital Business & Services Hub</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f6f8fb;
+      color: #172033;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #111827;
+      color: white;
+      padding: 18px 7%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 25px;
+      font-weight: bold;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 18px;
+    }
+
+    .hero {
+      padding: 80px 7%;
+      text-align: center;
+      background: #eef4ff;
+    }
+
+    .hero h1 {
+      font-size: 50px;
+      margin-bottom: 15px;
+    }
+
+    .hero h1 span {
+      color: #2563eb;
+    }
+
+    .hero p {
+      max-width: 700px;
+      margin: auto;
+      color: #526078;
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .btn {
+      padding: 13px 20px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .primary {
+      background: #2563eb;
+      color: white;
+    }
+
+    .secondary {
+      background: white;
+      color: #172033;
+      border: 1px solid #d7deea;
+    }
+
+    section {
+      padding: 55px 7%;
+    }
+
+    .title {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .title h2 {
+      font-size: 32px;
+    }
+
+    .title p {
+      color: #657086;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 16px;
+      border: 1px solid #e3e8f0;
+    }
+
+    .icon {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    .card h3 {
+      margin-bottom: 8px;
+    }
+
+    .card p {
+      color: #657086;
+      font-size: 14px;
+    }
+
+    .tag {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 5px 10px;
+      border-radius: 20px;
+      background: #eef4ff;
+      color: #2563eb;
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+    .cta {
+      background: #111827;
+      color: white;
+      text-align: center;
+    }
+
+    .cta p {
+      color: #cbd5e1;
+      max-width: 650px;
+      margin: 10px auto 22px;
+    }
+
+    footer {
+      background: #0b1120;
+      color: #aeb9ca;
+      text-align: center;
+      padding: 25px;
+      font-size: 13px;
+    }
+
+    @media (max-width: 650px) {
+      header {
+        flex-direction: column;
+        gap: 15px;
+      }
+
+      nav a {
+        margin: 0 7px;
+      }
+
+      .hero h1 {
+        font-size: 38px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">Joventra</div>
+
+  <nav>
+    <a href="#businesses">Businesses</a>
+    <a href="#services">Services</a>
+    <a href="#join">Join</a>
+  </nav>
+</header>
+
+<section class="hero">
+
+  <h1>Welcome to <span>Joventra</span></h1>
+
+  <p>
+    Innovating the Future. Building digital solutions that connect
+    people, businesses, services and opportunities.
+  </p>
+
+  <div class="buttons">
+
+    <a class="btn primary" href="#businesses">
+      Find Businesses
+    </a>
+
+    <a class="btn secondary" href="#join">
+      Offer Your Services
+    </a>
+
+    <a class="btn secondary" href="#services">
+      Explore Services
+    </a>
+
+  </div>
+
+</section>
+
+<section id="businesses">
+
+  <div class="title">
+    <h2>Find Businesses</h2>
+    <p>
+      Discover businesses and connect with service providers.
+    </p>
+  </div>
+
+  <div class="cards">
+
+    <div class="card">
+      <div class="icon">🏢</div>
+
+      <h3>Business Listings</h3>
+
+      <p>
+        Find businesses by category, location and services offered.
+      </p>
+
+      <span class="tag">Joventra Hub</span>
+    </div>
+
+    <div class="card">
+      <div class="icon">📍</div>
+
+      <h3>Local Businesses</h3>
+
+      <p>
+        Discover useful businesses and opportunities across Tanzania.
+      </p>
+
+      <span class="tag">Tanzania</span>
+    </div>
+
+    <div class="card">
+      <div class="icon">🤝</div>
+
+      <h3>Connect</h3>
+
+      <p>
+        Make it easier for customers and businesses to connect.
+      </p>
+
+      <span class="tag">Connect</span>
+    </div>
+
+  </div>
+
+</section>
+
+<section id="services">
+
+  <div class="title">
+    <h2>Our Services</h2>
+
+    <p>
+      Digital tools designed to help people and businesses grow.
+    </p>
+  </div>
+
+  <div class="cards">
+
+    <div class="card">
+      <div class="icon">💻</div>
+
+      <h3>Digital Solutions</h3>
+
+      <p>
+        Websites and digital solutions for businesses and projects.
+      </p>
+    </div>
+
+    <div class="card">
+      <div class="icon">🎨</div>
+
+      <h3>Digital Products</h3>
+
+      <p>
+        Useful digital products and resources for customers and businesses.
+      </p>
+    </div>
+
+    <div class="card">
+      <div class="icon">📣</div>
+
+      <h3>Business Promotion</h3>
+
+      <p>
+        Opportunities for businesses to showcase their products and services.
+      </p>
+    </div>
+
+  </div>
+
+</section>
+
+<section id="join" class="cta">
+
+  <div class="title">
+
+    <h2>Grow with Joventra</h2>
+
+    <p>
+      Businesses and service providers can use Joventra
+      to reach more customers and opportunities.
+    </p>
+
+    <div class="buttons">
+
+      <a class="btn primary" href="#businesses">
+        List Your Business
+      </a>
+
+      <a class="btn secondary" href="#services">
+        Explore Opportunities
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+<footer>
+
+  © 2026 Joventra.
+  Connecting people, businesses and opportunities.
+
+</footer>
+
+</body>
+</html>
